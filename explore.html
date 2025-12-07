@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%; overflow: scroll;">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style2.css">
+  <title>ARTificial</title>
+</head>
+<body>
+
+  <style> 
+    /*Making dynamic title text.*/
+        /*Custom font.*/
+        @font-face {
+        font-family: 'TheFont';
+        
+        /* Link to custom variable font.*/
+        src: url("https://garet.typeforward.com/assets/fonts/shared/TFMixVF.woff2")
+          format('woff2'); }
+    
+    
+          /*Letter Animation*/
+      body.breathe-animation {
+        align-items: left;
+        justify-content: left;
+      }
+    
+      .breathe-animation span {
+        font-family: 'TheFont';
+        font-size: 50px;
+        margin-bottom: 50px;
+        margin-top: -530px;
+        margin-left: 35px;
+      
+      
+        /* Change this to set the text color */
+        color: white;
+      
+        /* Center text horizontally */
+        text-align: center; 
+        animation: letter-breathe 3s ease-in-out infinite;
+    }
+      
+      @keyframes letter-breathe {
+       
+        from,
+        to {
+         
+          font-variation-settings: 'wght' 100;
+        }
+    
+     
+        50% {
+          font-variation-settings: 'wght' 900;
+        }
+      }
+      </style>
+  </head>
+  
+  <body class="breathe-animation">
+  
+    <div style="height: 700px;"></div> <!--MAKES SCROLLABLE-->
+  
+    <!-- Animated text content-->
+    <span>EXPLORE</span>
+
+
+
+
+<!--Making the Navigation Bar-->
+<header class="header">
+  <div class="header__content">
+      <nav class="nav">
+          <ul class="nav__list">
+            
+            <li class="nav__item" 
+            style="margin-left: 750px;"></li> <!--Appear left on nav.-->
+              <a class="nav__link" href="index.html">Home</a>
+            </li>
+
+            <li class="nav__item">
+              <a class="nav__link" href="more.html">More</a>
+            </li>
+
+          </ul>
+        </nav>
+  </div>
+</header>
+
+
+
+
+<!--Making the cards.-->
+<div class="curved-panel">
+    <div class="curved-track">
+      <figure class="card">
+        <a href="photoshop.html">
+        <img src="images/photoshop.png" alt="image 1">  <!--Have to wrap the image 
+        to make it clickable to its page.-->
+        </a>
+        <figcaption class="caption">Photoshop</figcaption>
+      </figure>
+
+      <figure class="card">
+        <a href="figma.html">
+        <img src="images/figma.png" alt="Image 2">
+        </a>
+        <figcaption class="caption">Figma</figcaption>
+      </figure>
+
+      <figure class="card">
+        <a href="descript.html">
+        <img src="images/descript.png" alt="Image 3">
+        </a>
+        <figcaption class="caption">Descript</figcaption>
+      </figure>
+
+      <figure class="card">
+        <a href="canva.html">
+        <img src="images/canva.png" alt="Image 4">
+        </a>
+        <figcaption class="caption">Canva</figcaption>
+      </figure>
+    </div>
+  </div>
+
+  </body>
+  </html>

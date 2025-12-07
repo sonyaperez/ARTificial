@@ -1,0 +1,180 @@
+.PSbefore{
+    border-radius: 40px;
+    margin-left: 800px;
+    margin-top:200px;
+    height: 250px;
+    position: absolute;
+}
+
+.PSafter{
+    border-radius: 40px;
+    margin-left: 900px;
+    margin-top: 460px;
+    position: absolute;
+    height: 210px;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    padding-bottom: 540px;
+}
+
+/* Styling navbar */
+.header {
+    position: absolute; /*The nav bar will only stay at the top.*/
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it's above content */
+  }
+  
+  .header__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 60px;
+    max-width: 1200px;
+    padding: 40px 30px;
+    margin: 0 auto;
+  }
+  
+  /* ===== NAVIGATION ===== */
+  .nav__list {
+    display: flex;
+    column-gap: 55px;
+  
+  }
+  
+  .nav__link {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding-left: 60px;
+    position: relative;
+  }
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Times New Roman', Times, serif;
+    transition: color 0.3s ease;
+  }
+  
+  /*Applies to the text changing color when hovered.*/
+  a:hover {
+    color: rgb(238, 92, 199);
+  }
+
+.introps{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 21px;
+    font-size: 27px;
+    color: rgb(238, 92, 199);
+    text-shadow: #ebe5e5 1px 0 10px;
+}
+
+.overlays{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 21px;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.overlaysexplained{
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 21px;
+    font-size: 22px;
+}
+.commands{
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 21px;
+    font-size: 22px;
+    color: rgb(238, 92, 199);
+}
+
+.select{
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 370px;
+    font-size: 22px;
+}
+.overlayscon{
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 21px;
+    font-size: 22px;
+}
+
+.overexposure{
+    position: absolute;
+    margin-top:500px;
+    margin-left: 21px;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.lasso{
+    position: absolute;
+    margin-top: 540px;
+    margin-left: 21px;
+    font-size: 22px;
+}
+
+.fill{
+position: absolute;
+margin-top:700px;
+margin-left: 21px;
+font-size: 25px;
+font-style: italic;
+}
+
+.filluse{
+    position: absolute;
+    margin-top: 740px;
+    margin-left: 21px;
+    font-size: 22px;
+}
+
+.fillcommand{
+    position: absolute;
+    margin-top: 820px;
+    margin-left: 21px;
+    font-size: 22px;
+    color: rgb(238, 92, 199);
+}
+
+.link{
+    position: absolute;
+    margin-top: 900px;
+    margin-left: 50%;
+    font-size: 22px;
+    color: rgb(238, 92, 199);
+}
+
+.things{
+    position: absolute;
+    margin-top:1000px;
+    margin-left: 20%;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.remember{
+    position: absolute;
+    margin-top:1060px;
+    margin-left: 20px;
+    font-size: 22px;
+    font-style: bold;
+}
+.thumbnail{
+    width:300px;
+    height: 190px;
+    margin-top: 930px;
+    margin-left: 80px;
+}

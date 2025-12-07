@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%; overflow: scroll;">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style4.css">
+  <title>Canva</title>
+
+  <style> 
+  /*Making dynamic title text.*/
+      /*Custom font.*/
+      @font-face {
+      font-family: 'TheFont';
+      
+      /* Link to custom variable font.*/
+      src: url("https://garet.typeforward.com/assets/fonts/shared/TFMixVF.woff2")
+        format('woff2'); }
+  
+  
+        /*Letter Animation*/
+    body.breathe-animation {
+      display: flex;
+      align-items: left;
+      justify-content: left;
+      margin-top: 45px;
+      margin-left: 35px;
+    }
+  
+    .breathe-animation span {
+      font-family: 'TheFont';
+      font-size: 40px;
+    
+      /* Change this to set the text color */
+      color: white;
+    
+      /* Center text horizontally */
+      text-align: center; 
+      animation: letter-breathe 3s ease-in-out infinite;
+  }
+    
+    @keyframes letter-breathe {
+     
+      from,
+      to {
+        /* Font weight*/
+        font-variation-settings: 'wght' 100;
+      }
+  
+      /* At (50%), the font weight to 900. */
+      50% {
+        /* Ending weight; adjust the numbers according to your specific font */
+        font-variation-settings: 'wght' 900;
+      }
+    }
+    </style>
+</head>
+<body>
+<body class="breathe-animation">
+
+  <div style="height: 900px;"></div> <!--MAKES SCROLLABLE-->
+
+  <!-- Animated text content-->
+  <span>Canva Magic Studio</span>
+
+  <!--Images that will be displayed-->
+  <img src="images/canvacode.png" alt="canva prompt" class="canvaprompt">
+  <img src="images/canvagame.png" alt="canva game" class="canvagame">
+
+  <!--Making the Navigation Bar-->
+  <header class="header">
+      <div class="header__content">
+          <nav class="nav">
+              <ul class="nav__list">
+                
+                <li class="nav__item" style="margin-left: 750px;">
+                  <a class="nav__link" href="index.html">Home</a>
+                </li>
+    
+                <li class="nav__item">
+                  <a class="nav__link" href="explore.html">Explore</a>
+                </li>
+    
+              </ul>
+            </nav>
+      </div>
+    </header>
+
+  <p class="introcanva">
+    Every designer knows that Canva is a very quick and easy tool. <br>
+     Many start learning the basics of graphic design through the platform. <br>
+     As careers advance, it is still a valuable tool for creating wireframes, <br>
+     user interface drafts,
+     and event advertisements. <br>
+     
+  </p>
+
+  <p class="canvapay"> <!--Make this text smaller than intro.-->
+    Take your designs to the next level with the three sections of Canva Magic Studio.<br> 
+    The free plan offers 20 free generated elements for free. <br>
+    For full access, a premium plan is required. <br>
+  
+  </p>
+
+  <p class="codeintro"> <!--Make Italics-->
+    Tool #1: Code Helper
+  </p>
+  <p class="codeexplained">
+    &#9724; Choose or create your own prompt that will loosely generate an outline of the concept you 
+    would like to create. <br>
+    &#9724; Canva will generate HTML, CSS, and JavaScript code. <br>
+    &#9724; Unfortunately, you cannot edit the direct code, but you can do basic editing when added to a design. <br>
+    &#9724; This is a great tool if you would like to add a similar aspect to your own personal coding projects. <br>
+    &#9724; Treat it as a skeleton and tweak it to make it your own. <br>
+  
+  </p>
+
+  <p class="magicintro"> <!--Italics-->
+    Tool #2:Magic Switch
+  </p>
+  <p class="magicswitch">
+    This tool is perfect if you want to convert media into a different format. <br>
+    It doesn’t just automatically change the size of the document to fit a social media post, <br>
+    but the elements are adjusted proportionally. <br>
+    If you want to make any changes, this makes it easier to visualize how the final product will <br>
+    look across platforms. It’s similar to designing a UI for desktop vs a smartphone. <br>
+  </p>
+
+  <p class="magicgrab"> <!--Italics-->
+    Tool #3:Magic Grab
+  </p>
+  <p class="magicgrabpink"> <!--Hot pink text-->
+    Create a sticker-like-element 
+  
+  </p>
+
+  <p class="magicgrabmore">
+    from any aspect of a design. <br>
+
+  </p>
+
+  <p class="more">
+  This makes overlaying text or smaller, more intricate details like logos, easier to position and clone.<br>
+  </p>
+  
+  <p class="backgroundremove">
+      Tool #4:Background Remover
+  </p>
+
+  <p class="backgroundremovemore">
+    &#9724; Eliminates the need for another software or excessive editing through traditional Canva. <br>
+    &#9724; Select the object you want to remove, and the Ai will fill in the background as if it was never there.<br>
+  
+  </p>
+
+</body>
+</html>

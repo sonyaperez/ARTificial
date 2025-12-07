@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%; overflow: scroll;">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style5.css">
+  <title>Figma</title>
+
+  <style> 
+  /*Making dynamic title text.*/
+      /*Custom font.*/
+      @font-face {
+      font-family: 'TheFont';
+      
+      /* Link to custom variable font.*/
+      src: url("https://garet.typeforward.com/assets/fonts/shared/TFMixVF.woff2")
+        format('woff2'); }
+  
+  
+        /*Letter Animation*/
+    body.breathe-animation {
+      display: flex;
+      align-items: left;
+      justify-content: left;
+      margin-top: 45px;
+      margin-left: 35px;
+    }
+  
+    .breathe-animation span {
+      font-family: 'TheFont';
+      font-size: 40px;
+    
+      /* Change this to set the text color */
+      color: white;
+    
+      /* Center text horizontally */
+      text-align: center; 
+      animation: letter-breathe 3s ease-in-out infinite;
+  }
+    
+    @keyframes letter-breathe {
+     
+      from,
+      to {
+        /* Starting weight; adjust the numbers according to your specific font */
+        font-variation-settings: 'wght' 100;
+      }
+  
+      /* At (50%), the font weight to 900. */
+      50% {
+        /* Ending weight; adjust the numbers according to your specific font */
+        font-variation-settings: 'wght' 900;
+      }
+    }
+    </style>
+</head>
+
+<body>
+  
+<body class="breathe-animation">
+
+  <div style="height: 700px;"></div> <!--MAKES SCROLLABLE-->
+
+  <!-- Animated text content-->
+  <span>FIGMA AI</span>
+
+  <!--Images that will be displayed-->
+  <img src="images/figmaprompt.png" alt="figma prompt" class="figmaprompt">
+  <img src="images/figmaflow.png" alt="figma flow" class="figmaflow">
+
+  <!--Making the Navigation Bar-->
+  <header class="header">
+      <div class="header__content">
+          <nav class="nav">
+              <ul class="nav__list">
+                
+                <li class="nav__item" style="margin-left: 750px;">
+                  <a class="nav__link" href="index.html">Home</a>
+                </li>
+    
+                <li class="nav__item">
+                  <a class="nav__link" href="explore.html">Explore</a>
+                </li>
+    
+              </ul>
+            </nav>
+      </div>
+    </header>
+
+  <p class="introfigma">
+    Figma is a great software for web-design.
+     It typically is used as an initial step in the design process, <br>
+     before being assembled by a team of designers and developers. <br>
+     With paid plans, prototyping is easier with the help of Ai. <br>
+<br>
+     
+  </p>
+
+  <p class="figmajam"> <!--Italics-->
+    Tool #1: Figma Jam
+  </p>
+
+  <p class="figmajamtext"> 
+    Create wireframes for a concept with a prompt. <br>
+    This serves as a great outline for projects and is easy to add to boards <br>
+    where there is collaboration to explore different concepts.<br>
+  </p>
+
+  <p class="rewrite"> <!--Italics-->
+   Tool #2: Rewrite Text
+  </p>
+
+  <p class="rewritetext">
+    Select the text layer and select the language you would like to translate to. 
+  </p>
+
+  <p class="remember"> <!--Hot pink-->
+    Remember:
+  </p>
+
+  <p class="remembertext"> 
+    &#9724; When translating for commercial purposes, <br>
+    it is always best to consult with a human translator afterwards <br>
+    to make sure there are no grammatical or spelling errors.<br>
+
+  </p>
+
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%; overflow: scroll;">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style6.css">
+  <title>Descript</title>
+
+  <style> 
+  /*Making dynamic title text.*/
+      /*Custom font.*/
+      @font-face {
+      font-family: 'TheFont';
+      
+      /* Link to custom variable font.*/
+      src: url("https://garet.typeforward.com/assets/fonts/shared/TFMixVF.woff2")
+        format('woff2'); }
+  
+  
+        /*Letter Animation*/
+    body.breathe-animation {
+      display: flex;
+      align-items: left;
+      justify-content: left;
+      margin-top: 45px;
+      margin-left: 35px;
+    }
+  
+    .breathe-animation span {
+      font-family: 'TheFont';
+      font-size: 40px;
+    
+      /* Change this to set the text color */
+      color: white;
+    
+      /* Center text horizontally */
+      text-align: center; 
+      animation: letter-breathe 3s ease-in-out infinite;
+  }
+    
+    @keyframes letter-breathe {
+     
+      from,
+      to {
+        /* Starting weight; adjust the numbers according to your specific font */
+        font-variation-settings: 'wght' 100;
+      }
+  
+      /* At (50%), the font weight to 900. */
+      50% {
+        /* Ending weight; adjust the numbers according to your specific font */
+        font-variation-settings: 'wght' 900;
+      }
+    }
+    </style>
+</head>
+
+<body>
+<body class="breathe-animation">
+
+  <div style="height: 900px;"></div> <!--MAKES SCROLLABLE-->
+
+  <!-- Animated text content-->
+  <span>DESCRIPT</span>
+
+  <!--Images that will be displayed-->
+  <img src="images/descriptex.png" alt="descript example" class="descriptex">
+
+  <!--Making the Navigation Bar-->
+  <header class="header">
+      <div class="header__content">
+          <nav class="nav">
+              <ul class="nav__list">
+                
+                <li class="nav__item" style="margin-left: 750px;">
+                  <a class="nav__link" href="index.html">Home</a>
+                </li>
+    
+                <li class="nav__item">
+                  <a class="nav__link" href="explore.html">Explore</a>
+                </li>
+    
+              </ul>
+            </nav>
+      </div>
+    </header>
+    <div style="height: 700px;"></div> <!--MAKES SCROLLABLE-->
+
+  <p class="introdescript">
+    Podcasts are a very popular media entertainment format. <br>
+    Yet, speech errors are common. <br>
+    If you want to preserve the humanness of your talk show, <br>
+    Descript can help edit out mistakes without making the subject sound too robotic.<br>
+     Not an artificial voice, just you. <br>
+     ARTifical does not advocate for creating a podcast entirely with Ai <br>
+     (generated script, voices, people, etc). <br>  
+  </p>
+
+  <p class="edit"> <!--Italics-->
+    To Edit Your Audio:
+  </p>
+
+  <p class="editaudio"> 
+    &#9724; Convert the file using the “transcribe” tool. <br>
+    &#9724; Descript will generate a script of your podcast. <br>
+    &#9724; Edit out filler words with one click, or edit out clips you decide that you no longer need. <br>
+    &#9724; Add pauses to make sentences sound less rushed, especially if it’s the result of editing.<br>
+The transcript itself is a great tool for accessibility concerns and can be linked in the description of a podcast.<br>
+
+
+  <p class="remember"> <!--Italics-->
+   Remember:
+  </p>
+
+  
+
+  <p class="remember"> <!--Hot pink-->
+    Remember:
+  </p>
+
+  <p class="remembertext"> 
+    If combined with video, the Ai will automatically create jump-cuts if 
+    filler words or mistakes are edited out via transcription. 
+    Like the other tools described, it takes a talented editor to make transitions seamless and natural. <br>
+     Use your judgement to decide what to cut out. <br>
+  </p>
+
+</body>
+</html>
